@@ -3,7 +3,7 @@ require 'spec_helper'
 feature 'Creating Projects' do
   before do 
   	visit '/'
-  	click_link 'New project'
+  	click_link 'New Project'
   end
 
 scenario "can create a project" do
