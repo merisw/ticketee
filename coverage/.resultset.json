@@ -482,6 +482,7 @@
         null,
         null,
         null,
+        null,
         1,
         null,
         null
@@ -515,7 +516,7 @@
         1,
         1,
         1,
-        17,
+        18,
         null,
         null,
         1,
@@ -646,6 +647,15 @@
         null
       ],
       "/Users/meris/code/ticketee/spec/support/factories/ticket_factory.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/meris/code/ticketee/spec/support/factories/user_factory.rb": [
+        1,
         1,
         1,
         1,
@@ -816,9 +826,27 @@
         null,
         null
       ],
+      "/Users/meris/code/ticketee/spec/integration/signing_in_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/meris/code/ticketee/spec/integration/signing_up_spec.rb": [
         1,
         null,
+        1,
         1,
         1,
         1,
@@ -873,6 +901,6 @@
         null
       ]
     },
-    "timestamp": 1368564921
+    "timestamp": 1368569401
   }
 }
