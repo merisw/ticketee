@@ -2,7 +2,7 @@ require 'spec_helper'
 
 feature 'Deleting users' do
   let!(:admin_user) { Factory(:admin_user) }
-  let!(:user) { Factory(:user, email: "user@example.com") }
+  let!(:user) { Factory(:user) }
 
   before do
     sign_in_as!(admin_user)

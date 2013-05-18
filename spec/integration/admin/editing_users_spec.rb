@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 feature 'Editing a user' do
-  let!(:admin_user) { Factory(:admin_user, email: "admin@example.com") }
+  let!(:admin_user) { Factory(:admin_user) }
   let!(:user) { Factory(:confirmed_user) }
 
   before do
