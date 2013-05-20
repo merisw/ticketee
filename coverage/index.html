@@ -14,7 +14,7 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-19T19:46:27-07:00">2013-05-19T19:46:27-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-19T20:03:14-07:00">2013-05-19T20:03:14-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         4.6
+         4.49
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>56</b> files in total.
-    <b>761</b> relevant lines. 
-    <span class="green"><b>761</b> lines covered</span> and
+    <b>58</b> files in total.
+    <b>772</b> relevant lines. 
+    <span class="green"><b>772</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -97,7 +97,7 @@
         <td>32</td>
         <td>32</td>
         <td>0</td>
-        <td>4.7</td>
+        <td>4.8</td>
       </tr>
       
       <tr>
@@ -157,7 +157,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>49.2</td>
+        <td>49.4</td>
       </tr>
       
       <tr>
@@ -217,7 +217,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>27.7</td>
+        <td>27.8</td>
       </tr>
       
       <tr>
@@ -356,6 +356,16 @@
         <td>76</td>
         <td>11</td>
         <td>11</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#59c9b197fe74b8c87698a38f4e960b1b14f81d6b" class="src_link" title="db/seeds.rb">db/seeds.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>13</td>
+        <td>4</td>
+        <td>4</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -511,6 +521,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#4c2401f05df204af4c73be4c2497b02af8a3907c" class="src_link" title="spec/integration/seeds_spec.rb">spec/integration/seeds_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>10</td>
+        <td>7</td>
+        <td>7</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#ff9d927e42d1ed1321b4d2d201865b5fc01c0d1e" class="src_link" title="spec/integration/signing_in_spec.rb">spec/integration/signing_in_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>26</td>
@@ -557,7 +577,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>24.9</td>
+        <td>25.4</td>
       </tr>
       
       <tr>
@@ -1390,8 +1410,8 @@
           <code class="ruby">	def index</code>
         </li>
       
-        <li class="covered" data-hits="73" data-linenumber="6">
-          <span class="hits">73</span>
+        <li class="covered" data-hits="74" data-linenumber="6">
+          <span class="hits">74</span>
           
           <code class="ruby">		@projects = Project.for(current_user).all</code>
         </li>
@@ -2404,8 +2424,8 @@
           <code class="ruby">  def admins_only(&amp;block)</code>
         </li>
       
-        <li class="covered" data-hits="291" data-linenumber="3">
-          <span class="hits">291</span>
+        <li class="covered" data-hits="293" data-linenumber="3">
+          <span class="hits">293</span>
           
           <code class="ruby">    block.call if current_user.try(:admin?)</code>
         </li>
@@ -2830,8 +2850,8 @@
           <code class="ruby">  def self.for(user)</code>
         </li>
       
-        <li class="covered" data-hits="149" data-linenumber="14">
-          <span class="hits">149</span>
+        <li class="covered" data-hits="150" data-linenumber="14">
+          <span class="hits">150</span>
           
           <code class="ruby">    user.admin? ? Project : Project.viewable_by(user)</code>
         </li>
@@ -6002,6 +6022,102 @@
           
           
           <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="59c9b197fe74b8c87698a38f4e960b1b14f81d6b">
+  <div class="header">
+    <h3>db/seeds.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># This file should contain all the record creation needed to seed the database with its default values.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"># The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># Examples:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">#   cities = City.create([{ name: &#39;Chicago&#39; }, { name: &#39;Copenhagen&#39; }])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">#   Mayor.create(name: &#39;Emanuel&#39;, city: cities.first)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">admin_user = User.create(:email =&gt; &quot;admin@ticketee.com&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  :password =&gt; &quot;password&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">admin_user.admin = true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">admin_user.confirm!</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Project.create(:name =&gt; &quot;Ticketee Beta&quot;)</code>
         </li>
       
     </ol>
@@ -9914,6 +10030,84 @@
   </pre>
 </div>
       
+        <div class="source_table" id="4c2401f05df204af4c73be4c2497b02af8a3907c">
+  <div class="header">
+    <h3>spec/integration/seeds_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;spec_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">feature &quot;Seed Data&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  scenario &quot;The basics&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    load Rails.root + &quot;db/seeds.rb&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    user = User.find_by_email!(&quot;admin@ticketee.com&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    sign_in_as!(user)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    page.should have_content(&quot;Ticketee Beta&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="ff9d927e42d1ed1321b4d2d201865b5fc01c0d1e">
   <div class="header">
     <h3>spec/integration/signing_in_spec.rb</h3>
@@ -10558,32 +10752,32 @@
           <code class="ruby">  def sign_in_as!(user)</code>
         </li>
       
-        <li class="covered" data-hits="44" data-linenumber="3">
-          <span class="hits">44</span>
+        <li class="covered" data-hits="45" data-linenumber="3">
+          <span class="hits">45</span>
           
           <code class="ruby">    visit &#39;/users/sign_in&#39;</code>
         </li>
       
-        <li class="covered" data-hits="44" data-linenumber="4">
-          <span class="hits">44</span>
+        <li class="covered" data-hits="45" data-linenumber="4">
+          <span class="hits">45</span>
           
           <code class="ruby">    fill_in &quot;Email&quot;, :with =&gt; user.email</code>
         </li>
       
-        <li class="covered" data-hits="44" data-linenumber="5">
-          <span class="hits">44</span>
+        <li class="covered" data-hits="45" data-linenumber="5">
+          <span class="hits">45</span>
           
           <code class="ruby">    fill_in &quot;Password&quot;, :with =&gt; &quot;password&quot;</code>
         </li>
       
-        <li class="covered" data-hits="44" data-linenumber="6">
-          <span class="hits">44</span>
+        <li class="covered" data-hits="45" data-linenumber="6">
+          <span class="hits">45</span>
           
           <code class="ruby">    click_button &#39;Sign in&#39;</code>
         </li>
       
-        <li class="covered" data-hits="44" data-linenumber="7">
-          <span class="hits">44</span>
+        <li class="covered" data-hits="45" data-linenumber="7">
+          <span class="hits">45</span>
           
           <code class="ruby">    page.should have_content(&quot;Signed in successfully.&quot;)</code>
         </li>

@@ -522,7 +522,7 @@
       "/Users/meris/code/ticketee/app/helpers/application_helper.rb": [
         1,
         1,
-        291,
+        293,
         null,
         null,
         1,
@@ -676,7 +676,7 @@
         1,
         1,
         1,
-        73,
+        74,
         null,
         null,
         1,
@@ -740,7 +740,7 @@
         null,
         null,
         1,
-        149,
+        150,
         null,
         null,
         null
@@ -870,11 +870,11 @@
       "/Users/meris/code/ticketee/spec/support/authentication_helpers.rb": [
         1,
         1,
-        44,
-        44,
-        44,
-        44,
-        44,
+        45,
+        45,
+        45,
+        45,
+        45,
         null,
         null,
         null,
@@ -1589,6 +1589,18 @@
         null,
         null
       ],
+      "/Users/meris/code/ticketee/spec/integration/seeds_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/meris/code/ticketee/spec/integration/signing_in_spec.rb": [
         1,
         null,
@@ -1687,8 +1699,23 @@
         1,
         null,
         null
+      ],
+      "/Users/meris/code/ticketee/db/seeds.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1
       ]
     },
-    "timestamp": 1369017987
+    "timestamp": 1369018994
   }
 }
