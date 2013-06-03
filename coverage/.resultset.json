@@ -766,6 +766,7 @@
         null,
         1,
         5,
+        20,
         null,
         null,
         1,
@@ -844,6 +845,8 @@
         1,
         1,
         1,
+        null,
+        1,
         1,
         null
       ],
@@ -866,6 +869,12 @@
         null,
         null,
         null,
+        null
+      ],
+      "/Users/meris/code/ticketee/app/models/asset.rb": [
+        1,
+        1,
+        1,
         null
       ],
       "/Users/meris/code/ticketee/spec/support/authentication_helpers.rb": [
@@ -1359,6 +1368,10 @@
         1,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -1728,6 +1741,6 @@
         1
       ]
     },
-    "timestamp": 1370293957
+    "timestamp": 1370298799
   }
 }

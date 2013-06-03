@@ -14,7 +14,7 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2013-06-03T14:12:37-07:00">2013-06-03T14:12:37-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2013-06-03T15:33:19-07:00">2013-06-03T15:33:19-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         4.61
+         4.55
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>58</b> files in total.
-    <b>781</b> relevant lines. 
-    <span class="green"><b>781</b> lines covered</span> and
+    <b>59</b> files in total.
+    <b>790</b> relevant lines. 
+    <span class="green"><b>790</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -113,11 +113,11 @@
       <tr>
         <td class="strong"><a href="#d19a7311551c7820adebf035abcc072f27c8c5e7" class="src_link" title="app/controllers/tickets_controller.rb">app/controllers/tickets_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>80</td>
-        <td>48</td>
-        <td>48</td>
+        <td>81</td>
+        <td>49</td>
+        <td>49</td>
         <td>0</td>
-        <td>3.5</td>
+        <td>3.8</td>
       </tr>
       
       <tr>
@@ -201,6 +201,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#4fa8b02cbb6d8354a7717ce20befc2f2a0b00dad" class="src_link" title="app/models/asset.rb">app/models/asset.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#8caaf4148406f8c17d4ec9cde0ddb9a5f9a5c59c" class="src_link" title="app/models/permission.rb">app/models/permission.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>5</td>
@@ -223,9 +233,9 @@
       <tr>
         <td class="strong"><a href="#8be766c4f64914632f75d85412b7141bd9c7f2de" class="src_link" title="app/models/ticket.rb">app/models/ticket.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>10</td>
         <td>8</td>
-        <td>7</td>
-        <td>7</td>
+        <td>8</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -463,11 +473,11 @@
       <tr>
         <td class="strong"><a href="#65358eb8beb70b9e929272a8d48c150557485cb1" class="src_link" title="spec/integration/creating_tickets_spec.rb">spec/integration/creating_tickets_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>54</td>
-        <td>38</td>
-        <td>38</td>
+        <td>58</td>
+        <td>42</td>
+        <td>42</td>
         <td>0</td>
-        <td>1.8</td>
+        <td>1.7</td>
       </tr>
       
       <tr>
@@ -1779,8 +1789,8 @@
     <h3>app/controllers/tickets_controller.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>48</b> relevant lines. 
-      <span class="green"><b>48</b> lines covered</span> and
+      <b>49</b> relevant lines. 
+      <span class="green"><b>49</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1848,421 +1858,427 @@
           <code class="ruby">    @ticket = @project.tickets.build</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="20" data-linenumber="11">
+          <span class="hits">20</span>
           
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">    3.times { @ticket.assets.build }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
+        <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
           <code class="ruby">  def create</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="14">
+        <li class="covered" data-hits="5" data-linenumber="15">
           <span class="hits">5</span>
           
           <code class="ruby">    @ticket = @project.tickets.build(params[:ticket])</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="15">
+        <li class="covered" data-hits="5" data-linenumber="16">
           <span class="hits">5</span>
           
           <code class="ruby">    @ticket.user = current_user</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="16">
+        <li class="covered" data-hits="5" data-linenumber="17">
           <span class="hits">5</span>
           
           <code class="ruby">    if @ticket.save</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="17">
+        <li class="covered" data-hits="3" data-linenumber="18">
           <span class="hits">3</span>
           
           <code class="ruby">      flash[:notice] = &quot;Ticket has been created.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="18">
+        <li class="covered" data-hits="3" data-linenumber="19">
           <span class="hits">3</span>
           
           <code class="ruby">      redirect_to [@project, @ticket]</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby">    else</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="20">
-          <span class="hits">2</span>
-          
-          <code class="ruby">      flash[:alert] = &quot;Ticket has not been created.&quot;</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="21">
           <span class="hits">2</span>
           
-          <code class="ruby">      render :action =&gt; &quot;new&quot;</code>
+          <code class="ruby">      flash[:alert] = &quot;Ticket has not been created.&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="covered" data-hits="2" data-linenumber="22">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">      render :action =&gt; &quot;new&quot;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="25">
+        <li class="covered" data-hits="1" data-linenumber="26">
           <span class="hits">1</span>
           
           <code class="ruby">  def show</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="26">
+        <li class="never" data-hits="" data-linenumber="27">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="27">
+        <li class="never" data-hits="" data-linenumber="28">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="28">
+        <li class="covered" data-hits="1" data-linenumber="29">
           <span class="hits">1</span>
           
           <code class="ruby">  def edit</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="29">
+        <li class="never" data-hits="" data-linenumber="30">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="30">
+        <li class="never" data-hits="" data-linenumber="31">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="31">
+        <li class="covered" data-hits="1" data-linenumber="32">
           <span class="hits">1</span>
           
           <code class="ruby">  def update</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="32">
+        <li class="covered" data-hits="3" data-linenumber="33">
           <span class="hits">3</span>
           
           <code class="ruby">    if @ticket.update_attributes(params[:ticket])</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="33">
+        <li class="covered" data-hits="2" data-linenumber="34">
           <span class="hits">2</span>
           
           <code class="ruby">      flash[:notice] = &quot;Ticket has been updated.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="34">
+        <li class="covered" data-hits="2" data-linenumber="35">
           <span class="hits">2</span>
           
           <code class="ruby">      redirect_to [@project, @ticket]</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="35">
+        <li class="never" data-hits="" data-linenumber="36">
           
           
           <code class="ruby">    else</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="36">
+        <li class="covered" data-hits="1" data-linenumber="37">
           <span class="hits">1</span>
           
           <code class="ruby">      flash[:alert] = &quot;Ticket has not been updated.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="37">
+        <li class="covered" data-hits="1" data-linenumber="38">
           <span class="hits">1</span>
           
           <code class="ruby">      render :action =&gt; &quot;edit&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="38">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
         <li class="never" data-hits="" data-linenumber="39">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="40">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="41">
+        <li class="covered" data-hits="1" data-linenumber="42">
           <span class="hits">1</span>
           
           <code class="ruby">  def destroy</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="42">
+        <li class="covered" data-hits="2" data-linenumber="43">
           <span class="hits">2</span>
           
           <code class="ruby">    @ticket.destroy</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="43">
+        <li class="covered" data-hits="2" data-linenumber="44">
           <span class="hits">2</span>
           
           <code class="ruby">    flash[:notice] = &quot;Ticket has been deleted.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="44">
+        <li class="covered" data-hits="2" data-linenumber="45">
           <span class="hits">2</span>
           
           <code class="ruby">    redirect_to @project</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="45">
+        <li class="never" data-hits="" data-linenumber="46">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="46">
+        <li class="never" data-hits="" data-linenumber="47">
           
           
           <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="47">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  private</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="48">
           <span class="hits">1</span>
           
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
           <code class="ruby">    def find_project</code>
         </li>
       
-        <li class="covered" data-hits="41" data-linenumber="49">
+        <li class="covered" data-hits="41" data-linenumber="50">
           <span class="hits">41</span>
           
           <code class="ruby">      @project = Project.for(current_user).find(params[:project_id])</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="50">
+        <li class="never" data-hits="" data-linenumber="51">
           
           
           <code class="ruby">    rescue ActiveRecord::RecordNotFound</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="51">
+        <li class="covered" data-hits="1" data-linenumber="52">
           <span class="hits">1</span>
           
           <code class="ruby">      flash[:alert] = &quot;The project you were looking for could not be found.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="52">
+        <li class="covered" data-hits="1" data-linenumber="53">
           <span class="hits">1</span>
           
           <code class="ruby">      redirect_to root_path</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="53">
+        <li class="never" data-hits="" data-linenumber="54">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="54">
+        <li class="never" data-hits="" data-linenumber="55">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="55">
+        <li class="covered" data-hits="1" data-linenumber="56">
           <span class="hits">1</span>
           
           <code class="ruby">    def find_ticket</code>
         </li>
       
-        <li class="covered" data-hits="28" data-linenumber="56">
+        <li class="covered" data-hits="28" data-linenumber="57">
           <span class="hits">28</span>
           
           <code class="ruby">      @ticket = @project.tickets.find(params[:id])</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="57">
+        <li class="never" data-hits="" data-linenumber="58">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="58">
+        <li class="never" data-hits="" data-linenumber="59">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="59">
+        <li class="covered" data-hits="1" data-linenumber="60">
           <span class="hits">1</span>
           
           <code class="ruby">    def authorize_create!</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="60">
+        <li class="covered" data-hits="12" data-linenumber="61">
           <span class="hits">12</span>
           
           <code class="ruby">      if !current_user.admin? &amp;&amp; cannot?(&quot;create tickets&quot;.to_sym, @project)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="61">
+        <li class="covered" data-hits="2" data-linenumber="62">
           <span class="hits">2</span>
           
           <code class="ruby">        flash[:alert] = &quot;You cannot create tickets on this project.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="62">
+        <li class="covered" data-hits="2" data-linenumber="63">
           <span class="hits">2</span>
           
           <code class="ruby">        redirect_to @project</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="63">
-          
-          
-          <code class="ruby">      end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="64">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="65">
           
           
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="66">
+        <li class="covered" data-hits="1" data-linenumber="67">
           <span class="hits">1</span>
           
           <code class="ruby">    def authorize_update!</code>
         </li>
       
-        <li class="covered" data-hits="8" data-linenumber="67">
+        <li class="covered" data-hits="8" data-linenumber="68">
           <span class="hits">8</span>
           
           <code class="ruby">      if !current_user.admin? &amp;&amp; cannot?(&quot;edit tickets&quot;.to_sym, @project)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="68">
+        <li class="covered" data-hits="2" data-linenumber="69">
           <span class="hits">2</span>
           
           <code class="ruby">        flash[:alert] = &quot;You cannot edit tickets on this project.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="69">
+        <li class="covered" data-hits="2" data-linenumber="70">
           <span class="hits">2</span>
           
           <code class="ruby">        redirect_to @project</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="70">
-          
-          
-          <code class="ruby">      end</code>
-        </li>
-      
         <li class="never" data-hits="" data-linenumber="71">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="72">
           
           
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="73">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="73">
+        <li class="covered" data-hits="1" data-linenumber="74">
           <span class="hits">1</span>
           
           <code class="ruby">    def authorize_delete!</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="74">
+        <li class="covered" data-hits="3" data-linenumber="75">
           <span class="hits">3</span>
           
           <code class="ruby">      if !current_user.admin? &amp;&amp; cannot?(:&quot;delete tickets&quot;, @project)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="75">
+        <li class="covered" data-hits="1" data-linenumber="76">
           <span class="hits">1</span>
           
           <code class="ruby">        flash[:alert] = &quot;You cannot delete tickets from this project.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="76">
+        <li class="covered" data-hits="1" data-linenumber="77">
           <span class="hits">1</span>
           
           <code class="ruby">        redirect_to @project</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="77">
+        <li class="never" data-hits="" data-linenumber="78">
           
           
           <code class="ruby">      end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="78">
+        <li class="never" data-hits="" data-linenumber="79">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="79">
+        <li class="never" data-hits="" data-linenumber="80">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="80">
+        <li class="never" data-hits="" data-linenumber="81">
           
           
           <code class="ruby">end</code>
@@ -2710,6 +2726,48 @@
   </pre>
 </div>
       
+        <div class="source_table" id="4fa8b02cbb6d8354a7717ce20befc2f2a0b00dad">
+  <div class="header">
+    <h3>app/models/asset.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Asset &lt; ActiveRecord::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_accessible :asset</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  has_attached_file :asset</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="8caaf4148406f8c17d4ec9cde0ddb9a5f9a5c59c">
   <div class="header">
     <h3>app/models/permission.rb</h3>
@@ -2883,8 +2941,8 @@
     <h3>app/models/ticket.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>7</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
+      <b>8</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2913,28 +2971,40 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  attr_accessible :asset, :description, :title</code>
+          <code class="ruby">  attr_accessible :description, :title, :assets_attributes</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  has_attached_file :asset</code>
+          <code class="ruby">  has_many :assets</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
+          <code class="ruby">  accepts_nested_attributes_for :assets</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
           <code class="ruby">  validates :title, :presence =&gt; true</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
           <code class="ruby">  validates :description, :presence =&gt; true, :length =&gt; { :minimum =&gt; 10 }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby">end</code>
@@ -8313,8 +8383,8 @@
     <h3>spec/integration/creating_tickets_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>38</b> relevant lines. 
-      <span class="green"><b>38</b> lines covered</span> and
+      <b>42</b> relevant lines. 
+      <span class="green"><b>42</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -8577,7 +8647,7 @@
         <li class="covered" data-hits="1" data-linenumber="43">
           <span class="hits">1</span>
           
-          <code class="ruby">  scenario &quot;Creating a ticket with an attchment&quot; do</code>
+          <code class="ruby">  scenario &quot;Creating a ticket with an attachment&quot; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="44">
@@ -8595,52 +8665,76 @@
         <li class="covered" data-hits="1" data-linenumber="46">
           <span class="hits">1</span>
           
-          <code class="ruby">    attach_file &quot;File&quot;, &quot;spec/fixtures/speed.txt&quot;</code>
+          <code class="ruby">    attach_file &quot;File #1&quot;, &quot;spec/fixtures/speed.txt&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="47">
           <span class="hits">1</span>
           
-          <code class="ruby">    click_button &quot;Create Ticket&quot;</code>
+          <code class="ruby">    attach_file &quot;File #2&quot;, &quot;spec/fixtures/spin.txt&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="48">
           <span class="hits">1</span>
           
-          <code class="ruby">    page.should have_content(&quot;Ticket has been created.&quot;)</code>
+          <code class="ruby">    attach_file &quot;File #3&quot;, &quot;spec/fixtures/gradient.txt&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="49">
           <span class="hits">1</span>
           
-          <code class="ruby">    within(&quot;#ticket .asset&quot;) do</code>
+          <code class="ruby">    click_button &quot;Create Ticket&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="50">
           <span class="hits">1</span>
           
+          <code class="ruby">    page.should have_content(&quot;Ticket has been created.&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="51">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    within(&quot;#ticket .assets&quot;) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="52">
+          <span class="hits">1</span>
+          
           <code class="ruby">      page.should have_content(&quot;speed.txt&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="51">
+        <li class="covered" data-hits="1" data-linenumber="53">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      page.should have_content(&quot;spin.txt&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="54">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      page.should have_content(&quot;gradient.txt&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="52">
+        <li class="never" data-hits="" data-linenumber="56">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="53">
+        <li class="never" data-hits="" data-linenumber="57">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="54">
+        <li class="never" data-hits="" data-linenumber="58">
           
           
           <code class="ruby">end</code>
