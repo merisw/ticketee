@@ -14,7 +14,7 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-19T20:03:14-07:00">2013-05-19T20:03:14-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2013-06-03T14:12:37-07:00">2013-06-03T14:12:37-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         4.49
+         4.61
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>58</b> files in total.
-    <b>772</b> relevant lines. 
-    <span class="green"><b>772</b> lines covered</span> and
+    <b>781</b> relevant lines. 
+    <span class="green"><b>781</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -117,7 +117,7 @@
         <td>48</td>
         <td>48</td>
         <td>0</td>
-        <td>3.3</td>
+        <td>3.5</td>
       </tr>
       
       <tr>
@@ -157,7 +157,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>49.4</td>
+        <td>51.0</td>
       </tr>
       
       <tr>
@@ -197,7 +197,7 @@
         <td>6</td>
         <td>6</td>
         <td>0</td>
-        <td>36.3</td>
+        <td>38.8</td>
       </tr>
       
       <tr>
@@ -217,15 +217,15 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>27.8</td>
+        <td>29.1</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#8be766c4f64914632f75d85412b7141bd9c7f2de" class="src_link" title="app/models/ticket.rb">app/models/ticket.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>8</td>
         <td>7</td>
-        <td>6</td>
-        <td>6</td>
+        <td>7</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -463,11 +463,11 @@
       <tr>
         <td class="strong"><a href="#65358eb8beb70b9e929272a8d48c150557485cb1" class="src_link" title="spec/integration/creating_tickets_spec.rb">spec/integration/creating_tickets_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>43</td>
-        <td>30</td>
-        <td>30</td>
+        <td>54</td>
+        <td>38</td>
+        <td>38</td>
         <td>0</td>
-        <td>1.7</td>
+        <td>1.8</td>
       </tr>
       
       <tr>
@@ -577,7 +577,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>25.4</td>
+        <td>26.0</td>
       </tr>
       
       <tr>
@@ -587,7 +587,7 @@
         <td>7</td>
         <td>7</td>
         <td>0</td>
-        <td>5.9</td>
+        <td>6.1</td>
       </tr>
       
       <tr>
@@ -1410,8 +1410,8 @@
           <code class="ruby">	def index</code>
         </li>
       
-        <li class="covered" data-hits="74" data-linenumber="6">
-          <span class="hits">74</span>
+        <li class="covered" data-hits="76" data-linenumber="6">
+          <span class="hits">76</span>
           
           <code class="ruby">		@projects = Project.for(current_user).all</code>
         </li>
@@ -1662,8 +1662,8 @@
           <code class="ruby">		def find_project</code>
         </li>
       
-        <li class="covered" data-hits="38" data-linenumber="48">
-          <span class="hits">38</span>
+        <li class="covered" data-hits="39" data-linenumber="48">
+          <span class="hits">39</span>
           
           <code class="ruby">			@project = Project.for(current_user).find(params[:id])</code>
         </li>
@@ -1842,8 +1842,8 @@
           <code class="ruby">  def new</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="10">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="5" data-linenumber="10">
+          <span class="hits">5</span>
           
           <code class="ruby">    @ticket = @project.tickets.build</code>
         </li>
@@ -1866,32 +1866,32 @@
           <code class="ruby">  def create</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="14">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="5" data-linenumber="14">
+          <span class="hits">5</span>
           
           <code class="ruby">    @ticket = @project.tickets.build(params[:ticket])</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="15">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="5" data-linenumber="15">
+          <span class="hits">5</span>
           
           <code class="ruby">    @ticket.user = current_user</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="16">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="5" data-linenumber="16">
+          <span class="hits">5</span>
           
           <code class="ruby">    if @ticket.save</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="17">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="17">
+          <span class="hits">3</span>
           
           <code class="ruby">      flash[:notice] = &quot;Ticket has been created.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="18">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="18">
+          <span class="hits">3</span>
           
           <code class="ruby">      redirect_to [@project, @ticket]</code>
         </li>
@@ -2076,8 +2076,8 @@
           <code class="ruby">    def find_project</code>
         </li>
       
-        <li class="covered" data-hits="38" data-linenumber="49">
-          <span class="hits">38</span>
+        <li class="covered" data-hits="41" data-linenumber="49">
+          <span class="hits">41</span>
           
           <code class="ruby">      @project = Project.for(current_user).find(params[:project_id])</code>
         </li>
@@ -2118,8 +2118,8 @@
           <code class="ruby">    def find_ticket</code>
         </li>
       
-        <li class="covered" data-hits="27" data-linenumber="56">
-          <span class="hits">27</span>
+        <li class="covered" data-hits="28" data-linenumber="56">
+          <span class="hits">28</span>
           
           <code class="ruby">      @ticket = @project.tickets.find(params[:id])</code>
         </li>
@@ -2142,8 +2142,8 @@
           <code class="ruby">    def authorize_create!</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="60">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="12" data-linenumber="60">
+          <span class="hits">12</span>
           
           <code class="ruby">      if !current_user.admin? &amp;&amp; cannot?(&quot;create tickets&quot;.to_sym, @project)</code>
         </li>
@@ -2424,8 +2424,8 @@
           <code class="ruby">  def admins_only(&amp;block)</code>
         </li>
       
-        <li class="covered" data-hits="293" data-linenumber="3">
-          <span class="hits">293</span>
+        <li class="covered" data-hits="301" data-linenumber="3">
+          <span class="hits">301</span>
           
           <code class="ruby">    block.call if current_user.try(:admin?)</code>
         </li>
@@ -2448,20 +2448,20 @@
           <code class="ruby">	def title(*parts)</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="7">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="30" data-linenumber="7">
+          <span class="hits">30</span>
           
           <code class="ruby">		unless parts.empty?</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="8">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="30" data-linenumber="8">
+          <span class="hits">30</span>
           
           <code class="ruby">			content_for :title do</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="9">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="30" data-linenumber="9">
+          <span class="hits">30</span>
           
           <code class="ruby">				(parts &lt;&lt; &quot;Ticketee&quot;).join(&quot; - &quot;)</code>
         </li>
@@ -2496,8 +2496,8 @@
           <code class="ruby">  def authorized?(permission, thing, &amp;block)</code>
         </li>
       
-        <li class="covered" data-hits="61" data-linenumber="15">
-          <span class="hits">61</span>
+        <li class="covered" data-hits="64" data-linenumber="15">
+          <span class="hits">64</span>
           
           <code class="ruby">    block.call if can?(permission.to_sym, thing) || current_user.try(:admin?)</code>
         </li>
@@ -2652,14 +2652,14 @@
           <code class="ruby">  def initialize(user)</code>
         </li>
       
-        <li class="covered" data-hits="74" data-linenumber="5">
-          <span class="hits">74</span>
+        <li class="covered" data-hits="78" data-linenumber="5">
+          <span class="hits">78</span>
           
           <code class="ruby">    user.permissions.each do |permission|</code>
         </li>
       
-        <li class="covered" data-hits="104" data-linenumber="6">
-          <span class="hits">104</span>
+        <li class="covered" data-hits="112" data-linenumber="6">
+          <span class="hits">112</span>
           
           <code class="ruby">      can permission.action.to_sym, permission.thing_type.constantize do |thing|</code>
         </li>
@@ -2670,8 +2670,8 @@
           <code class="ruby">        thing.nil? ||</code>
         </li>
       
-        <li class="covered" data-hits="37" data-linenumber="8">
-          <span class="hits">37</span>
+        <li class="covered" data-hits="40" data-linenumber="8">
+          <span class="hits">40</span>
           
           <code class="ruby">        permission.thing_id.nil? ||</code>
         </li>
@@ -2820,8 +2820,8 @@
           <code class="ruby">  def self.viewable_by(user)</code>
         </li>
       
-        <li class="covered" data-hits="93" data-linenumber="9">
-          <span class="hits">93</span>
+        <li class="covered" data-hits="99" data-linenumber="9">
+          <span class="hits">99</span>
           
           <code class="ruby">    joins(:permissions).where(:permissions =&gt; { :action =&gt; &quot;view&quot;,</code>
         </li>
@@ -2850,8 +2850,8 @@
           <code class="ruby">  def self.for(user)</code>
         </li>
       
-        <li class="covered" data-hits="150" data-linenumber="14">
-          <span class="hits">150</span>
+        <li class="covered" data-hits="156" data-linenumber="14">
+          <span class="hits">156</span>
           
           <code class="ruby">    user.admin? ? Project : Project.viewable_by(user)</code>
         </li>
@@ -2883,8 +2883,8 @@
     <h3>app/models/ticket.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>6</b> relevant lines. 
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2913,22 +2913,28 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  attr_accessible :/, :description, :title</code>
+          <code class="ruby">  attr_accessible :asset, :description, :title</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  validates :title, :presence =&gt; true</code>
+          <code class="ruby">  has_attached_file :asset</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
+          <code class="ruby">  validates :title, :presence =&gt; true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
           <code class="ruby">  validates :description, :presence =&gt; true, :length =&gt; { :minimum =&gt; 10 }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">end</code>
@@ -8307,8 +8313,8 @@
     <h3>spec/integration/creating_tickets_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>30</b> relevant lines. 
-      <span class="green"><b>30</b> lines covered</span> and
+      <b>38</b> relevant lines. 
+      <span class="green"><b>38</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -8340,32 +8346,32 @@
           <code class="ruby">  before do</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="5">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="5">
+          <span class="hits">4</span>
           
           <code class="ruby">    project = Factory(:project, :name =&gt; &quot;Internet Explorer&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="6">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="6">
+          <span class="hits">4</span>
           
           <code class="ruby">    user = Factory(:confirmed_user, :email =&gt; &quot;ticketee@example.com&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="7">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="7">
+          <span class="hits">4</span>
           
           <code class="ruby">    define_permission!(user, &quot;view&quot;, project)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="8">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="8">
+          <span class="hits">4</span>
           
           <code class="ruby">    define_permission!(user, &quot;create tickets&quot;, project)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="9">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="9">
+          <span class="hits">4</span>
           
           <code class="ruby">    sign_in_as!(user)</code>
         </li>
@@ -8376,20 +8382,20 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="11">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="11">
+          <span class="hits">4</span>
           
           <code class="ruby">    visit &#39;/&#39;</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="12">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="12">
+          <span class="hits">4</span>
           
           <code class="ruby">    click_link &quot;Internet Explorer&quot;</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="13">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="13">
+          <span class="hits">4</span>
           
           <code class="ruby">    click_link &quot;New Ticket&quot;</code>
         </li>
@@ -8400,8 +8406,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="15">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="8" data-linenumber="15">
+          <span class="hits">8</span>
           
           <code class="ruby">    within(&quot;h2&quot;) { page.should have_content(&quot;New Ticket&quot;) }</code>
         </li>
@@ -8568,7 +8574,73 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="43">
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  scenario &quot;Creating a ticket with an attchment&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="44">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    fill_in &quot;Title&quot;, :with =&gt; &quot;Add documentation for blink tag&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    fill_in &quot;Description&quot;, :with =&gt; &quot;The blink tag has a speed attribute&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="46">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attach_file &quot;File&quot;, &quot;spec/fixtures/speed.txt&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="47">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_button &quot;Create Ticket&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="48">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    page.should have_content(&quot;Ticket has been created.&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    within(&quot;#ticket .asset&quot;) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="50">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      page.should have_content(&quot;speed.txt&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="53">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="54">
           
           
           <code class="ruby">end</code>
@@ -10752,32 +10824,32 @@
           <code class="ruby">  def sign_in_as!(user)</code>
         </li>
       
-        <li class="covered" data-hits="45" data-linenumber="3">
-          <span class="hits">45</span>
+        <li class="covered" data-hits="46" data-linenumber="3">
+          <span class="hits">46</span>
           
           <code class="ruby">    visit &#39;/users/sign_in&#39;</code>
         </li>
       
-        <li class="covered" data-hits="45" data-linenumber="4">
-          <span class="hits">45</span>
+        <li class="covered" data-hits="46" data-linenumber="4">
+          <span class="hits">46</span>
           
           <code class="ruby">    fill_in &quot;Email&quot;, :with =&gt; user.email</code>
         </li>
       
-        <li class="covered" data-hits="45" data-linenumber="5">
-          <span class="hits">45</span>
+        <li class="covered" data-hits="46" data-linenumber="5">
+          <span class="hits">46</span>
           
           <code class="ruby">    fill_in &quot;Password&quot;, :with =&gt; &quot;password&quot;</code>
         </li>
       
-        <li class="covered" data-hits="45" data-linenumber="6">
-          <span class="hits">45</span>
+        <li class="covered" data-hits="46" data-linenumber="6">
+          <span class="hits">46</span>
           
           <code class="ruby">    click_button &#39;Sign in&#39;</code>
         </li>
       
-        <li class="covered" data-hits="45" data-linenumber="7">
-          <span class="hits">45</span>
+        <li class="covered" data-hits="46" data-linenumber="7">
+          <span class="hits">46</span>
           
           <code class="ruby">    page.should have_content(&quot;Signed in successfully.&quot;)</code>
         </li>
@@ -10854,8 +10926,8 @@
           <code class="ruby">  def define_permission!(user, action, thing)</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="3">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="31" data-linenumber="3">
+          <span class="hits">31</span>
           
           <code class="ruby">    Permission.create!(:user =&gt; user, :action =&gt; action, :thing =&gt; thing)</code>
         </li>
@@ -11196,8 +11268,8 @@
           <code class="ruby">      after_create do |user|</code>
         </li>
       
-        <li class="covered" data-hits="47" data-linenumber="9">
-          <span class="hits">47</span>
+        <li class="covered" data-hits="48" data-linenumber="9">
+          <span class="hits">48</span>
           
           <code class="ruby">        user.confirm!</code>
         </li>
