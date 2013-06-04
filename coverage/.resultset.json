@@ -691,6 +691,13 @@
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/meris/code/ticketee/app/controllers/projects_controller.rb": [
@@ -789,7 +796,7 @@
         null,
         1,
         5,
-        20,
+        5,
         null,
         null,
         1,
@@ -947,6 +954,24 @@
         null,
         1,
         1,
+        null
+      ],
+      "/Users/meris/code/ticketee/spec/support/database_cleaning.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        65,
+        null,
+        null,
+        1,
+        65,
+        null,
+        null,
         null
       ],
       "/Users/meris/code/ticketee/spec/support/factories/project_factory.rb": [
@@ -1440,7 +1465,6 @@
         1,
         1,
         1,
-        1,
         null,
         null,
         null,
@@ -1810,6 +1834,6 @@
         1
       ]
     },
-    "timestamp": 1370308937
+    "timestamp": 1370324875
   }
 }
