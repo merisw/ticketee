@@ -1,0 +1,8 @@
+th:
+  time:
+    formats:
+      default: "%d/%m/%Y %H:%M:%S %z"
+      short: "%d %m %H:%M"
+
+
+
